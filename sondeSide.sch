@@ -11,6 +11,16 @@
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -151,26 +161,6 @@
 <description>&lt;b&gt;Molex Connectors&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
 <packages>
-<package name="22-23-2081" library_version="2">
-<description>&lt;b&gt;KK® 254 Solid Header, Vertical, with Friction Lock, 8 Circuits, Tin (Sn) Plating&lt;/b&gt;&lt;p&gt;&lt;a href =http://www.molex.com/pdm_docs/sd/022232081_sd.pdf&gt;Datasheet &lt;/a&gt;</description>
-<wire x1="-10.16" y1="3.175" x2="10.16" y2="3.175" width="0.254" layer="21"/>
-<wire x1="10.16" y1="3.175" x2="10.16" y2="1.27" width="0.254" layer="21"/>
-<wire x1="10.16" y1="1.27" x2="10.16" y2="-3.175" width="0.254" layer="21"/>
-<wire x1="10.16" y1="-3.175" x2="-10.16" y2="-3.175" width="0.254" layer="21"/>
-<wire x1="-10.16" y1="-3.175" x2="-10.16" y2="1.27" width="0.254" layer="21"/>
-<wire x1="-10.16" y1="1.27" x2="-10.16" y2="3.175" width="0.254" layer="21"/>
-<wire x1="-10.16" y1="1.27" x2="10.16" y2="1.27" width="0.254" layer="21"/>
-<pad name="1" x="-8.89" y="0" drill="1" shape="long" rot="R90"/>
-<pad name="2" x="-6.35" y="0" drill="1" shape="long" rot="R90"/>
-<pad name="3" x="-3.81" y="0" drill="1" shape="long" rot="R90"/>
-<pad name="4" x="-1.27" y="0" drill="1" shape="long" rot="R90"/>
-<pad name="5" x="1.27" y="0" drill="1" shape="long" rot="R90"/>
-<pad name="6" x="3.81" y="0" drill="1" shape="long" rot="R90"/>
-<pad name="7" x="6.35" y="0" drill="1" shape="long" rot="R90"/>
-<pad name="8" x="8.89" y="0" drill="1" shape="long" rot="R90"/>
-<text x="-10.16" y="3.81" size="1.016" layer="25" ratio="10">&gt;NAME</text>
-<text x="-10.16" y="-5.08" size="1.016" layer="27" ratio="10">&gt;VALUE</text>
-</package>
 <package name="22-23-2041" library_version="2">
 <description>&lt;b&gt;KK® 254 Solid Header, Vertical, with Friction Lock, 4 Circuits, Tin (Sn) Plating&lt;/b&gt;&lt;p&gt;&lt;a href =http://www.molex.com/pdm_docs/sd/022232041_sd.pdf&gt;Datasheet &lt;/a&gt;</description>
 <wire x1="-5.08" y1="3.175" x2="5.08" y2="3.175" width="0.254" layer="21"/>
@@ -219,6 +209,20 @@
 <text x="-6.35" y="3.81" size="1.016" layer="25" ratio="10">&gt;NAME</text>
 <text x="-6.35" y="-5.08" size="1.016" layer="27" ratio="10">&gt;VALUE</text>
 </package>
+<package name="22-23-2021" library_version="2">
+<description>&lt;b&gt;KK® 254 Solid Header, Vertical, with Friction Lock, 2 Circuits, Tin (Sn) Plating&lt;/b&gt;&lt;p&gt;&lt;a href =http://www.molex.com/pdm_docs/sd/022232021_sd.pdf&gt;Datasheet &lt;/a&gt;</description>
+<wire x1="-2.54" y1="3.175" x2="2.54" y2="3.175" width="0.254" layer="21"/>
+<wire x1="2.54" y1="3.175" x2="2.54" y2="1.27" width="0.254" layer="21"/>
+<wire x1="2.54" y1="1.27" x2="2.54" y2="-3.175" width="0.254" layer="21"/>
+<wire x1="2.54" y1="-3.175" x2="-2.54" y2="-3.175" width="0.254" layer="21"/>
+<wire x1="-2.54" y1="-3.175" x2="-2.54" y2="1.27" width="0.254" layer="21"/>
+<wire x1="-2.54" y1="1.27" x2="-2.54" y2="3.175" width="0.254" layer="21"/>
+<wire x1="-2.54" y1="1.27" x2="2.54" y2="1.27" width="0.254" layer="21"/>
+<pad name="1" x="-1.27" y="0" drill="1" shape="long" rot="R90"/>
+<pad name="2" x="1.27" y="0" drill="1" shape="long" rot="R90"/>
+<text x="-2.54" y="3.81" size="1.016" layer="25" ratio="10">&gt;NAME</text>
+<text x="-2.54" y="-5.08" size="1.016" layer="27" ratio="10">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="MV" library_version="2">
@@ -234,41 +238,6 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="22-23-2081" prefix="X" library_version="2">
-<description>.100" (2.54mm) Center Header - 8 Pin</description>
-<gates>
-<gate name="-1" symbol="MV" x="0" y="7.62" addlevel="always" swaplevel="1"/>
-<gate name="-2" symbol="M" x="0" y="5.08" addlevel="always" swaplevel="1"/>
-<gate name="-3" symbol="M" x="0" y="2.54" addlevel="always" swaplevel="1"/>
-<gate name="-4" symbol="M" x="0" y="0" addlevel="always" swaplevel="1"/>
-<gate name="-5" symbol="M" x="0" y="-2.54" addlevel="always" swaplevel="1"/>
-<gate name="-6" symbol="M" x="0" y="-5.08" addlevel="always" swaplevel="1"/>
-<gate name="-7" symbol="M" x="0" y="-7.62" addlevel="always" swaplevel="1"/>
-<gate name="-8" symbol="M" x="0" y="-10.16" addlevel="always" swaplevel="1"/>
-</gates>
-<devices>
-<device name="" package="22-23-2081">
-<connects>
-<connect gate="-1" pin="S" pad="1"/>
-<connect gate="-2" pin="S" pad="2"/>
-<connect gate="-3" pin="S" pad="3"/>
-<connect gate="-4" pin="S" pad="4"/>
-<connect gate="-5" pin="S" pad="5"/>
-<connect gate="-6" pin="S" pad="6"/>
-<connect gate="-7" pin="S" pad="7"/>
-<connect gate="-8" pin="S" pad="8"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="MF" value="MOLEX" constant="no"/>
-<attribute name="MPN" value="22-23-2081" constant="no"/>
-<attribute name="OC_FARNELL" value="1756826" constant="no"/>
-<attribute name="OC_NEWARK" value="01C7592" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="22-23-2041" prefix="X" library_version="2">
 <description>.100" (2.54mm) Center Header - 4 Pin</description>
 <gates>
@@ -345,6 +314,29 @@
 <attribute name="MPN" value="22-23-2051" constant="no"/>
 <attribute name="OC_FARNELL" value="1462952" constant="no"/>
 <attribute name="OC_NEWARK" value="38C9178" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="22-23-2021" prefix="X" library_version="2">
+<description>.100" (2.54mm) Center Header - 2 Pin</description>
+<gates>
+<gate name="-1" symbol="MV" x="0" y="0" addlevel="always" swaplevel="1"/>
+<gate name="-2" symbol="M" x="0" y="-2.54" addlevel="always" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="22-23-2021">
+<connects>
+<connect gate="-1" pin="S" pad="1"/>
+<connect gate="-2" pin="S" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="MOLEX" constant="no"/>
+<attribute name="MPN" value="22-23-2021" constant="no"/>
+<attribute name="OC_FARNELL" value="1462926" constant="no"/>
+<attribute name="OC_NEWARK" value="25C3832" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -4833,9 +4825,6 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </class>
 </classes>
 <parts>
-<part name="PWRBOOST" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-23-2081" device="">
-<attribute name="SPICEPREFIX" value="X"/>
-</part>
 <part name="STEP-UP" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-23-2031" device=""/>
 <part name="SONDE" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-23-2051" device=""/>
 <part name="RADIO" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-23-2041" device=""/>
@@ -4867,20 +4856,13 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="JP23" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X1" device="" package3d_urn="urn:adsk.eagle:package:22485/2"/>
 <part name="JP24" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X1" device="" package3d_urn="urn:adsk.eagle:package:22485/2"/>
 <part name="STEP-DOWN" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-23-2041" device=""/>
+<part name="PWRBOOST" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-23-2021" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 </plain>
 <instances>
-<instance part="PWRBOOST" gate="-1" x="68.58" y="83.82"/>
-<instance part="PWRBOOST" gate="-2" x="68.58" y="81.28"/>
-<instance part="PWRBOOST" gate="-3" x="68.58" y="78.74"/>
-<instance part="PWRBOOST" gate="-4" x="68.58" y="76.2"/>
-<instance part="PWRBOOST" gate="-5" x="68.58" y="73.66"/>
-<instance part="PWRBOOST" gate="-6" x="68.58" y="71.12"/>
-<instance part="PWRBOOST" gate="-7" x="68.58" y="68.58"/>
-<instance part="PWRBOOST" gate="-8" x="68.58" y="66.04"/>
 <instance part="STEP-UP" gate="-1" x="68.58" y="30.48"/>
 <instance part="STEP-UP" gate="-2" x="68.58" y="27.94"/>
 <instance part="STEP-UP" gate="-3" x="68.58" y="25.4"/>
@@ -4927,6 +4909,8 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <instance part="STEP-DOWN" gate="-2" x="68.58" y="50.8"/>
 <instance part="STEP-DOWN" gate="-3" x="68.58" y="48.26"/>
 <instance part="STEP-DOWN" gate="-4" x="68.58" y="45.72"/>
+<instance part="PWRBOOST" gate="-1" x="71.12" y="63.5"/>
+<instance part="PWRBOOST" gate="-2" x="71.12" y="60.96"/>
 </instances>
 <busses>
 </busses>
@@ -4981,9 +4965,11 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <label x="60.96" y="-30.48" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
-<pinref part="PWRBOOST" gate="-7" pin="S"/>
 <wire x1="66.04" y1="68.58" x2="60.96" y2="68.58" width="0.1524" layer="91"/>
 <label x="60.96" y="68.58" size="1.778" layer="95" rot="R180"/>
+<pinref part="PWRBOOST" gate="-1" pin="S"/>
+<wire x1="68.58" y1="63.5" x2="66.04" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="63.5" x2="66.04" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="-33.02" y1="55.88" x2="-38.1" y2="55.88" width="0.1524" layer="91"/>
@@ -5105,9 +5091,11 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </net>
 <net name="5V" class="0">
 <segment>
-<pinref part="PWRBOOST" gate="-8" pin="S"/>
-<wire x1="60.96" y1="66.04" x2="66.04" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="66.04" x2="63.5" y2="66.04" width="0.1524" layer="91"/>
 <label x="60.96" y="66.04" size="1.778" layer="95" rot="R180"/>
+<pinref part="PWRBOOST" gate="-2" pin="S"/>
+<wire x1="63.5" y1="66.04" x2="63.5" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="60.96" x2="68.58" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="STEP-UP" gate="-1" pin="S"/>
