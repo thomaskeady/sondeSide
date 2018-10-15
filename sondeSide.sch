@@ -4866,12 +4866,11 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="JP22" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X1" device="" package3d_urn="urn:adsk.eagle:package:22485/2"/>
 <part name="JP23" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X1" device="" package3d_urn="urn:adsk.eagle:package:22485/2"/>
 <part name="JP24" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X1" device="" package3d_urn="urn:adsk.eagle:package:22485/2"/>
-<part name="VIN" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X1" device="" package3d_urn="urn:adsk.eagle:package:22485/2"/>
+<part name="STEP-DOWN" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-23-2041" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
-<text x="12.7" y="50.8" size="1.778" layer="91">Teensy VIN is on other side</text>
 </plain>
 <instances>
 <instance part="PWRBOOST" gate="-1" x="68.58" y="83.82"/>
@@ -4924,7 +4923,10 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <instance part="JP22" gate="G$1" x="-60.96" y="2.54" rot="R180"/>
 <instance part="JP23" gate="G$1" x="-60.96" y="0" rot="R180"/>
 <instance part="JP24" gate="G$1" x="-60.96" y="-2.54" rot="R180"/>
-<instance part="VIN" gate="G$1" x="25.4" y="55.88"/>
+<instance part="STEP-DOWN" gate="-1" x="68.58" y="53.34"/>
+<instance part="STEP-DOWN" gate="-2" x="68.58" y="50.8"/>
+<instance part="STEP-DOWN" gate="-3" x="68.58" y="48.26"/>
+<instance part="STEP-DOWN" gate="-4" x="68.58" y="45.72"/>
 </instances>
 <busses>
 </busses>
@@ -4951,6 +4953,11 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <pinref part="JP15" gate="G$1" pin="1"/>
 <wire x1="-58.42" y1="20.32" x2="-33.02" y2="20.32" width="0.1524" layer="91"/>
 <label x="-38.1" y="20.32" size="1.778" layer="95" rot="R180"/>
+</segment>
+<segment>
+<pinref part="STEP-DOWN" gate="-1" pin="S"/>
+<wire x1="66.04" y1="53.34" x2="60.96" y2="53.34" width="0.1524" layer="91"/>
+<label x="60.96" y="53.34" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -4988,6 +4995,11 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <pinref part="DEPTH" gate="-4" pin="S"/>
 <wire x1="60.96" y1="5.08" x2="66.04" y2="5.08" width="0.1524" layer="91"/>
 <label x="60.96" y="5.08" size="1.778" layer="95" rot="R180"/>
+</segment>
+<segment>
+<pinref part="STEP-DOWN" gate="-2" pin="S"/>
+<wire x1="60.96" y1="50.8" x2="66.04" y2="50.8" width="0.1524" layer="91"/>
+<label x="60.96" y="50.8" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="12V" class="0">
@@ -5103,9 +5115,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <label x="60.96" y="30.48" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
-<pinref part="VIN" gate="G$1" pin="1"/>
-<wire x1="22.86" y1="55.88" x2="15.24" y2="55.88" width="0.1524" layer="91"/>
-<label x="15.24" y="55.88" size="1.778" layer="95" rot="R180"/>
+<pinref part="STEP-DOWN" gate="-3" pin="S"/>
+<wire x1="66.04" y1="48.26" x2="60.96" y2="48.26" width="0.1524" layer="91"/>
+<label x="60.96" y="48.26" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 </nets>

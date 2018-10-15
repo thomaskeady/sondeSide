@@ -161,10 +161,61 @@
 <wire x1="127" y1="0" x2="127" y2="31.75" width="0" layer="20"/>
 <wire x1="127" y1="31.75" x2="0" y2="31.75" width="0" layer="20"/>
 <wire x1="0" y1="31.75" x2="0" y2="0" width="0" layer="20"/>
-<rectangle x1="51.2445" y1="16.4465" x2="59.3725" y2="29.5275" layer="1" rot="R270"/>
 <wire x1="36.83" y1="27.94" x2="36.83" y2="13.081" width="0.025" layer="49"/>
 <wire x1="36.83" y1="13.081" x2="36.83" y2="1.27" width="0.025" layer="49"/>
 <wire x1="62.357" y1="13.081" x2="36.83" y2="13.081" width="0.025" layer="49"/>
+<wire x1="48.768" y1="27.178" x2="62.484" y2="27.178" width="0.127" layer="25"/>
+<wire x1="62.484" y1="27.178" x2="62.484" y2="18.288" width="0.127" layer="25"/>
+<wire x1="62.484" y1="18.288" x2="49.53" y2="18.288" width="0.127" layer="25"/>
+<wire x1="48.768" y1="27.178" x2="48.768" y2="18.288" width="0.127" layer="25"/>
+<wire x1="48.768" y1="18.288" x2="49.53" y2="18.288" width="0.127" layer="25"/>
+<text x="38.862" y="12.192" size="1.27" layer="25">GND</text>
+<text x="54.864" y="9.906" size="1.27" layer="25" rot="R90">GND</text>
+<text x="57.404" y="9.906" size="1.27" layer="25" rot="R90">GND</text>
+<text x="49.784" y="10.16" size="1.27" layer="25" rot="R90">RX</text>
+<text x="43.434" y="5.334" size="1.27" layer="25">RX</text>
+<text x="43.434" y="7.874" size="1.27" layer="25">TX</text>
+<text x="52.324" y="10.16" size="1.27" layer="25" rot="R90">TX</text>
+<text x="47.244" y="10.16" size="1.27" layer="25" rot="R90">12V</text>
+<text x="43.434" y="2.794" size="1.27" layer="25">3.3V</text>
+<text x="58.166" y="2.794" size="1.27" layer="25">3.3V</text>
+<text x="58.166" y="5.588" size="1.27" layer="25">SDA</text>
+<text x="58.166" y="7.874" size="1.27" layer="25">SCL</text>
+<text x="58.166" y="10.414" size="1.27" layer="25">GND</text>
+<text x="39.116" y="10.414" size="1.27" layer="26" rot="MR0">GND</text>
+<text x="55.118" y="12.7" size="1.27" layer="26" rot="MR270">GND</text>
+<text x="57.658" y="12.7" size="1.27" layer="26" rot="MR270">GND</text>
+<text x="61.468" y="10.414" size="1.27" layer="26" rot="MR0">GND</text>
+<text x="38.862" y="7.874" size="1.27" layer="26" rot="MR0">TX</text>
+<text x="51.308" y="8.89" size="1.27" layer="26" rot="MR90">TX</text>
+<text x="48.768" y="8.89" size="1.27" layer="26" rot="MR90">RX</text>
+<text x="38.862" y="5.334" size="1.27" layer="26" rot="MR0">RX</text>
+<text x="38.862" y="2.794" size="1.27" layer="26" rot="MR0">3.3V</text>
+<text x="60.96" y="3.048" size="1.27" layer="26" rot="MR0">3.3V</text>
+<text x="61.214" y="5.334" size="1.27" layer="26" rot="MR0">SDA</text>
+<text x="61.214" y="7.874" size="1.27" layer="26" rot="MR0">SCL</text>
+<text x="46.228" y="8.89" size="1.27" layer="26" rot="MR90">12V</text>
+<text x="55.118" y="3.81" size="1.27" layer="26" rot="MR0">SONDE</text>
+<text x="43.688" y="10.16" size="1.27" layer="26" rot="MR270">RADIO</text>
+<text x="64.516" y="18.288" size="1.27" layer="26" rot="MR270">DEPTH</text>
+<text x="14.478" y="8.382" size="1.27" layer="26" rot="MR0">V1 OCT 2018</text>
+<text x="10.922" y="28.702" size="1.27" layer="26" rot="MR270">3.3V</text>
+<text x="10.922" y="28.702" size="1.27" layer="26" rot="MR270">3.3V</text>
+<text x="8.382" y="27.432" size="1.27" layer="25">3.3V</text>
+<text x="32.512" y="28.702" size="1.27" layer="25" rot="R270">TX2</text>
+<text x="33.782" y="28.956" size="1.27" layer="26" rot="MR270">TX2</text>
+<text x="36.068" y="28.956" size="1.27" layer="26" rot="MR270">RX2</text>
+<text x="34.798" y="28.956" size="1.27" layer="25" rot="R270">RX2</text>
+<text x="37.338" y="28.956" size="1.27" layer="25" rot="R270">TX3</text>
+<text x="38.608" y="28.956" size="1.27" layer="26" rot="MR270">TX3</text>
+<text x="41.402" y="28.956" size="1.27" layer="26" rot="MR270">RX3</text>
+<text x="39.878" y="28.956" size="1.27" layer="25" rot="R270">RX3</text>
+<text x="61.468" y="24.892" size="1.27" layer="25">5V</text>
+<text x="63.5" y="24.892" size="1.27" layer="26" rot="MR0">5V</text>
+<text x="65.278" y="22.352" size="1.27" layer="26" rot="MR0">GND</text>
+<text x="61.468" y="22.352" size="1.27" layer="25">GND</text>
+<text x="61.468" y="19.558" size="1.27" layer="25">12V</text>
+<text x="64.516" y="19.558" size="1.27" layer="26" rot="MR0">12V</text>
 </plain>
 <libraries>
 <library name="con-molex" urn="urn:adsk.eagle:library:165">
@@ -1879,14 +1930,14 @@ design rules under a new name.</description>
 <element name="SONDE" library="con-molex" library_urn="urn:adsk.eagle:library:165" package="22-23-2051" value="22-23-2051" x="51.816" y="6.985" smashed="yes">
 <attribute name="MF" value="MOLEX" x="51.816" y="6.985" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="22-23-2051" x="51.816" y="6.985" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="49.53" y="10.541" size="1.016" layer="25" ratio="10"/>
+<attribute name="NAME" x="49.53" y="2.413" size="1.016" layer="25" ratio="10"/>
 <attribute name="OC_FARNELL" value="1462952" x="51.816" y="6.985" size="1.778" layer="27" display="off"/>
 <attribute name="OC_NEWARK" value="38C9178" x="51.816" y="6.985" size="1.778" layer="27" display="off"/>
 </element>
 <element name="STEP-UP" library="con-molex" library_urn="urn:adsk.eagle:library:165" package="22-23-2031" value="22-23-2031" x="59.69" y="22.86" smashed="yes" rot="R270">
 <attribute name="MF" value="MOLEX" x="59.69" y="22.86" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="22-23-2031" x="59.69" y="22.86" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="63.5" y="26.67" size="1.016" layer="25" ratio="10" rot="R270"/>
+<attribute name="NAME" x="57.15" y="27.178" size="1.016" layer="25" ratio="10"/>
 <attribute name="OC_FARNELL" value="1462950" x="59.69" y="22.86" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="OC_NEWARK" value="30C0862" x="59.69" y="22.86" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
