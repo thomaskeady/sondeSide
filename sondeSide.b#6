@@ -222,6 +222,7 @@
 <hole x="3.175" y="19.685" drill="2.54"/>
 <hole x="24.384" y="9.0678" drill="4.318"/>
 <hole x="3.175" y="3.175" drill="2.54"/>
+<hole x="3.175" y="3.175" drill="5.08"/>
 </plain>
 <libraries>
 <library name="con-molex" urn="urn:adsk.eagle:library:165">

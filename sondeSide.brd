@@ -223,6 +223,7 @@
 <hole x="24.384" y="9.0678" drill="4.318"/>
 <hole x="3.175" y="3.175" drill="2.54"/>
 <wire x1="1.143" y1="22.86" x2="36.322" y2="22.86" width="0.025" layer="49"/>
+<text x="1.778" y="23.114" size="1.27" layer="25">500c Powerboost</text>
 </plain>
 <libraries>
 <library name="con-molex" urn="urn:adsk.eagle:library:165">
