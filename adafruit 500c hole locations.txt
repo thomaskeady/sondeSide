@@ -20,3 +20,12 @@ keepout TL:
 keepout BR:
 	1.42, 0.25
 
+ON OUR BOARD
+500c top left screw hole:
+	0.125, 0.775
+
+500c bottom left screw hole:
+	0.125, 0.125
+
+500c IC cooling hole:
+	0.96, 0.357
