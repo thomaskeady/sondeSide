@@ -32,7 +32,7 @@
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
@@ -199,6 +199,23 @@
 <text x="43.688" y="10.16" size="1.27" layer="26" rot="MR270">RADIO</text>
 <text x="64.516" y="18.288" size="1.27" layer="26" rot="MR270">DEPTH</text>
 <text x="14.478" y="8.382" size="1.27" layer="26" rot="MR0">V1 OCT 2018</text>
+<text x="10.922" y="28.702" size="1.27" layer="26" rot="MR270">3.3V</text>
+<text x="10.922" y="28.702" size="1.27" layer="26" rot="MR270">3.3V</text>
+<text x="8.382" y="27.432" size="1.27" layer="25">3.3V</text>
+<text x="32.512" y="28.702" size="1.27" layer="25" rot="R270">TX2</text>
+<text x="33.782" y="28.956" size="1.27" layer="26" rot="MR270">TX2</text>
+<text x="36.068" y="28.956" size="1.27" layer="26" rot="MR270">RX2</text>
+<text x="34.798" y="28.956" size="1.27" layer="25" rot="R270">RX2</text>
+<text x="37.338" y="28.956" size="1.27" layer="25" rot="R270">TX3</text>
+<text x="38.608" y="28.956" size="1.27" layer="26" rot="MR270">TX3</text>
+<text x="41.402" y="28.956" size="1.27" layer="26" rot="MR270">RX3</text>
+<text x="39.878" y="28.956" size="1.27" layer="25" rot="R270">RX3</text>
+<text x="61.468" y="24.892" size="1.27" layer="25">5V</text>
+<text x="63.5" y="24.892" size="1.27" layer="26" rot="MR0">5V</text>
+<text x="65.278" y="22.352" size="1.27" layer="26" rot="MR0">GND</text>
+<text x="61.468" y="22.352" size="1.27" layer="25">GND</text>
+<text x="61.468" y="19.558" size="1.27" layer="25">12V</text>
+<text x="64.516" y="19.558" size="1.27" layer="26" rot="MR0">12V</text>
 </plain>
 <libraries>
 <library name="con-molex" urn="urn:adsk.eagle:library:165">
@@ -1920,7 +1937,7 @@ design rules under a new name.</description>
 <element name="STEP-UP" library="con-molex" library_urn="urn:adsk.eagle:library:165" package="22-23-2031" value="22-23-2031" x="59.69" y="22.86" smashed="yes" rot="R270">
 <attribute name="MF" value="MOLEX" x="59.69" y="22.86" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="22-23-2031" x="59.69" y="22.86" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="63.5" y="26.67" size="1.016" layer="25" ratio="10" rot="R270"/>
+<attribute name="NAME" x="57.15" y="27.178" size="1.016" layer="25" ratio="10"/>
 <attribute name="OC_FARNELL" value="1462950" x="59.69" y="22.86" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="OC_NEWARK" value="30C0862" x="59.69" y="22.86" size="1.778" layer="27" rot="R270" display="off"/>
 </element>

@@ -182,6 +182,34 @@
 <text x="58.166" y="5.588" size="1.27" layer="25">SDA</text>
 <text x="58.166" y="7.874" size="1.27" layer="25">SCL</text>
 <text x="58.166" y="10.414" size="1.27" layer="25">GND</text>
+<text x="39.116" y="10.414" size="1.27" layer="26" rot="MR0">GND</text>
+<text x="55.118" y="12.7" size="1.27" layer="26" rot="MR270">GND</text>
+<text x="57.658" y="12.7" size="1.27" layer="26" rot="MR270">GND</text>
+<text x="61.468" y="10.414" size="1.27" layer="26" rot="MR0">GND</text>
+<text x="38.862" y="7.874" size="1.27" layer="26" rot="MR0">TX</text>
+<text x="51.308" y="8.89" size="1.27" layer="26" rot="MR90">TX</text>
+<text x="48.768" y="8.89" size="1.27" layer="26" rot="MR90">RX</text>
+<text x="38.862" y="5.334" size="1.27" layer="26" rot="MR0">RX</text>
+<text x="38.862" y="2.794" size="1.27" layer="26" rot="MR0">3.3V</text>
+<text x="60.96" y="3.048" size="1.27" layer="26" rot="MR0">3.3V</text>
+<text x="61.214" y="5.334" size="1.27" layer="26" rot="MR0">SDA</text>
+<text x="61.214" y="7.874" size="1.27" layer="26" rot="MR0">SCL</text>
+<text x="46.228" y="8.89" size="1.27" layer="26" rot="MR90">12V</text>
+<text x="55.118" y="3.81" size="1.27" layer="26" rot="MR0">SONDE</text>
+<text x="43.688" y="10.16" size="1.27" layer="26" rot="MR270">RADIO</text>
+<text x="64.516" y="18.288" size="1.27" layer="26" rot="MR270">DEPTH</text>
+<text x="14.478" y="8.382" size="1.27" layer="26" rot="MR0">V1 OCT 2018</text>
+<text x="10.922" y="28.702" size="1.27" layer="26" rot="MR270">3.3V</text>
+<text x="10.922" y="28.702" size="1.27" layer="26" rot="MR270">3.3V</text>
+<text x="8.382" y="27.432" size="1.27" layer="25">3.3V</text>
+<text x="32.512" y="28.702" size="1.27" layer="25" rot="R270">TX2</text>
+<text x="33.782" y="28.956" size="1.27" layer="26" rot="MR270">TX2</text>
+<text x="36.068" y="28.956" size="1.27" layer="26" rot="MR270">RX2</text>
+<text x="34.798" y="28.956" size="1.27" layer="25" rot="R270">RX2</text>
+<text x="37.338" y="28.956" size="1.27" layer="25" rot="R270">TX3</text>
+<text x="38.608" y="28.956" size="1.27" layer="26" rot="MR270">TX3</text>
+<text x="41.402" y="28.956" size="1.27" layer="26" rot="MR270">RX3</text>
+<text x="39.878" y="28.956" size="1.27" layer="25" rot="R270">RX3</text>
 </plain>
 <libraries>
 <library name="con-molex" urn="urn:adsk.eagle:library:165">

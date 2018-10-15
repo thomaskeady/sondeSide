@@ -5552,6 +5552,11 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <wire x1="66.04" y1="30.48" x2="60.96" y2="30.48" width="0.1524" layer="91"/>
 <label x="60.96" y="30.48" size="1.778" layer="95" rot="R180"/>
 </segment>
+<segment>
+<pinref part="JP25" gate="G$1" pin="1"/>
+<wire x1="-7.62" y1="55.88" x2="-15.24" y2="55.88" width="0.1524" layer="91"/>
+<label x="-15.24" y="55.88" size="1.778" layer="95" rot="R180"/>
+</segment>
 </net>
 </nets>
 </sheet>

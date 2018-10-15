@@ -4871,6 +4871,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <sheets>
 <sheet>
 <plain>
+<text x="-17.78" y="50.8" size="1.778" layer="91">Teensy VIN is on other side</text>
 </plain>
 <instances>
 <instance part="PWRBOOST" gate="-1" x="68.58" y="83.82"/>
