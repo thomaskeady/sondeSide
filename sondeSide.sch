@@ -5319,7 +5319,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="JP22" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X1" device="" package3d_urn="urn:adsk.eagle:package:22485/2"/>
 <part name="JP23" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X1" device="" package3d_urn="urn:adsk.eagle:package:22485/2"/>
 <part name="JP24" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X1" device="" package3d_urn="urn:adsk.eagle:package:22485/2"/>
-<part name="JP25" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X1" device="" package3d_urn="urn:adsk.eagle:package:22485/2"/>
+<part name="VIN" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X1" device="" package3d_urn="urn:adsk.eagle:package:22485/2"/>
 <part name="U$1" library="Teensy356" deviceset="TEENSY_3.5/3.6" device=""/>
 </parts>
 <sheets>
@@ -5378,7 +5378,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <instance part="JP22" gate="G$1" x="-60.96" y="2.54" rot="R180"/>
 <instance part="JP23" gate="G$1" x="-60.96" y="0" rot="R180"/>
 <instance part="JP24" gate="G$1" x="-60.96" y="-2.54" rot="R180"/>
-<instance part="JP25" gate="G$1" x="25.4" y="55.88"/>
+<instance part="VIN" gate="G$1" x="25.4" y="55.88"/>
 <instance part="U$1" gate="G$1" x="-10.16" y="43.18"/>
 </instances>
 <busses>
@@ -5558,7 +5558,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <label x="60.96" y="30.48" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
-<pinref part="JP25" gate="G$1" pin="1"/>
+<pinref part="VIN" gate="G$1" pin="1"/>
 <wire x1="22.86" y1="55.88" x2="15.24" y2="55.88" width="0.1524" layer="91"/>
 <label x="15.24" y="55.88" size="1.778" layer="95" rot="R180"/>
 </segment>
