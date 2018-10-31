@@ -1797,7 +1797,7 @@ design rules under a new name.</description>
 <element name="JP32" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X01" package3d_urn="urn:adsk.eagle:package:22485/2" value="" x="55.626" y="29.464" smashed="yes" rot="R90">
 <attribute name="VALUE" x="58.801" y="28.194" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="OK1" library="optocoupler" library_urn="urn:adsk.eagle:library:320" package="DIL6-04" package3d_urn="urn:adsk.eagle:package:21968/1" value="H11L2MT" x="88.138" y="12.7" rot="R270">
+<element name="OK1" library="optocoupler" library_urn="urn:adsk.eagle:library:320" package="DIL6-04" package3d_urn="urn:adsk.eagle:package:21968/1" value="H11L2MT" x="88.138" y="12.7" smashed="yes" rot="R270">
 <attribute name="MF" value="" x="88.138" y="12.7" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="" x="88.138" y="12.7" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="88.138" y="12.7" size="1.778" layer="27" rot="R270" display="off"/>

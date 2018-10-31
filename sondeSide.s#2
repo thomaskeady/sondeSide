@@ -5252,13 +5252,6 @@ when the switch is closed</text>
 <label x="60.96" y="-30.48" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
-<wire x1="66.04" y1="68.58" x2="60.96" y2="68.58" width="0.1524" layer="91"/>
-<label x="60.96" y="68.58" size="1.778" layer="95" rot="R180"/>
-<pinref part="PWRBOOST" gate="-1" pin="S"/>
-<wire x1="68.58" y1="63.5" x2="66.04" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="66.04" y1="63.5" x2="66.04" y2="68.58" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <wire x1="-30.48" y1="71.12" x2="-35.56" y2="71.12" width="0.1524" layer="91"/>
 <label x="-35.56" y="71.12" size="1.778" layer="95" rot="R180"/>
 <pinref part="JP1" gate="G$1" pin="1"/>
@@ -5428,6 +5421,7 @@ when the switch is closed</text>
 <pinref part="R3" gate="G$1" pin="1"/>
 <pinref part="OK1" gate="G$1" pin="A"/>
 <wire x1="-27.94" y1="-15.24" x2="-22.86" y2="-15.24" width="0.1524" layer="91"/>
+<junction x="-22.86" y="-15.24"/>
 </segment>
 </net>
 <net name="GND_PLANE" class="0">
@@ -5450,6 +5444,13 @@ when the switch is closed</text>
 <wire x1="-2.54" y1="-20.32" x2="0" y2="-20.32" width="0.1524" layer="91"/>
 <wire x1="0" y1="-20.32" x2="0" y2="-25.4" width="0.1524" layer="91"/>
 <label x="0" y="-25.4" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="66.04" y1="68.58" x2="60.96" y2="68.58" width="0.1524" layer="91"/>
+<label x="60.96" y="68.58" size="1.778" layer="95" rot="R180"/>
+<pinref part="PWRBOOST" gate="-1" pin="S"/>
+<wire x1="68.58" y1="63.5" x2="66.04" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="63.5" x2="66.04" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="D0" class="0">
