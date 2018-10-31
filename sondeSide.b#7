@@ -220,7 +220,7 @@
 <hole x="24.384" y="9.0678" drill="4.318"/>
 <hole x="3.175" y="3.175" drill="2.54"/>
 <text x="1.778" y="23.114" size="1.27" layer="25">500c Powerboost</text>
-<rectangle x1="84.7725" y1="-1.2065" x2="109.0295" y2="41.2115" layer="21" rot="R90"/>
+<rectangle x1="-26.67" y1="-27.686" x2="-2.413" y2="14.732" layer="21"/>
 </plain>
 <libraries>
 <library name="con-molex" urn="urn:adsk.eagle:library:165">
