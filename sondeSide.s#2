@@ -5329,54 +5329,54 @@ when the switch is closed</text>
 </net>
 <net name="RX2" class="0">
 <segment>
-<pinref part="RADIO" gate="-2" pin="S"/>
-<wire x1="60.96" y1="-25.4" x2="66.04" y2="-25.4" width="0.1524" layer="91"/>
-<label x="60.96" y="-25.4" size="1.778" layer="95" rot="R180"/>
-</segment>
-<segment>
 <wire x1="-30.48" y1="45.72" x2="-35.56" y2="45.72" width="0.1524" layer="91"/>
 <label x="-35.56" y="45.72" size="1.778" layer="95" rot="R180"/>
 <pinref part="JP11" gate="G$1" pin="1"/>
 <wire x1="-35.56" y1="45.72" x2="-55.88" y2="45.72" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="SONDE" gate="-2" pin="S"/>
+<wire x1="66.04" y1="-7.62" x2="60.96" y2="-7.62" width="0.1524" layer="91"/>
+<label x="60.96" y="-7.62" size="1.778" layer="95" rot="R180"/>
+</segment>
 </net>
 <net name="TX2" class="0">
-<segment>
-<pinref part="RADIO" gate="-3" pin="S"/>
-<wire x1="66.04" y1="-27.94" x2="60.96" y2="-27.94" width="0.1524" layer="91"/>
-<label x="60.96" y="-27.94" size="1.778" layer="95" rot="R180"/>
-</segment>
 <segment>
 <wire x1="-35.56" y1="43.18" x2="-30.48" y2="43.18" width="0.1524" layer="91"/>
 <label x="-35.56" y="43.18" size="1.778" layer="95" rot="R180"/>
 <pinref part="JP12" gate="G$1" pin="1"/>
 <wire x1="-35.56" y1="43.18" x2="-55.88" y2="43.18" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="SONDE" gate="-3" pin="S"/>
+<wire x1="60.96" y1="-10.16" x2="66.04" y2="-10.16" width="0.1524" layer="91"/>
+<label x="60.96" y="-10.16" size="1.778" layer="95" rot="R180"/>
+</segment>
 </net>
 <net name="RX3" class="0">
-<segment>
-<pinref part="SONDE" gate="-2" pin="S"/>
-<wire x1="66.04" y1="-7.62" x2="60.96" y2="-7.62" width="0.1524" layer="91"/>
-<label x="60.96" y="-7.62" size="1.778" layer="95" rot="R180"/>
-</segment>
 <segment>
 <wire x1="-30.48" y1="50.8" x2="-35.56" y2="50.8" width="0.1524" layer="91"/>
 <label x="-35.56" y="50.8" size="1.778" layer="95" rot="R180"/>
 <pinref part="JP9" gate="G$1" pin="1"/>
 <wire x1="-35.56" y1="50.8" x2="-55.88" y2="50.8" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="RADIO" gate="-2" pin="S"/>
+<wire x1="60.96" y1="-25.4" x2="66.04" y2="-25.4" width="0.1524" layer="91"/>
+<label x="60.96" y="-25.4" size="1.778" layer="95" rot="R180"/>
+</segment>
 </net>
 <net name="TX3" class="0">
-<segment>
-<pinref part="SONDE" gate="-3" pin="S"/>
-<wire x1="60.96" y1="-10.16" x2="66.04" y2="-10.16" width="0.1524" layer="91"/>
-<label x="60.96" y="-10.16" size="1.778" layer="95" rot="R180"/>
-</segment>
 <segment>
 <wire x1="-35.56" y1="48.26" x2="-30.48" y2="48.26" width="0.1524" layer="91"/>
 <label x="-35.56" y="48.26" size="1.778" layer="95" rot="R180"/>
 <pinref part="JP10" gate="G$1" pin="1"/>
 <wire x1="-35.56" y1="48.26" x2="-55.88" y2="48.26" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="RADIO" gate="-3" pin="S"/>
+<wire x1="66.04" y1="-27.94" x2="60.96" y2="-27.94" width="0.1524" layer="91"/>
+<label x="60.96" y="-27.94" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="5V" class="0">

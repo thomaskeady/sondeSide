@@ -5137,6 +5137,8 @@ Source: http://www.fairchildsemi.com/ds/H1/H11L2-M.pdf</description>
 <plain>
 <text x="-58.42" y="76.2" size="1.778" layer="91">Teensy</text>
 <text x="-60.96" y="-2.54" size="1.778" layer="91">Receiver</text>
+<text x="0" y="-10.16" size="1.778" layer="91">"GND" is only connected to ground 
+when the switch is closed</text>
 </plain>
 <instances>
 <instance part="STEP-UP" gate="-1" x="68.58" y="30.48"/>
@@ -5273,20 +5275,14 @@ Source: http://www.fairchildsemi.com/ds/H1/H11L2-M.pdf</description>
 <label x="60.96" y="50.8" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
-<wire x1="-58.42" y1="-7.62" x2="-43.18" y2="-7.62" width="0.1524" layer="91"/>
-<label x="-43.18" y="-7.62" size="1.778" layer="95"/>
+<pinref part="OK1" gate="G$1" pin="OUT"/>
+<wire x1="-2.54" y1="-17.78" x2="0" y2="-17.78" width="0.1524" layer="91"/>
+<label x="0" y="-17.78" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="OK1" gate="G$1" pin="C"/>
-<wire x1="-22.86" y1="-20.32" x2="-25.4" y2="-20.32" width="0.1524" layer="91"/>
-<wire x1="-25.4" y1="-20.32" x2="-25.4" y2="-25.4" width="0.1524" layer="91"/>
-<label x="-25.4" y="-25.4" size="1.778" layer="95" rot="R180"/>
-</segment>
-<segment>
-<pinref part="OK1" gate="G$1" pin="GND"/>
-<wire x1="-2.54" y1="-20.32" x2="0" y2="-20.32" width="0.1524" layer="91"/>
-<wire x1="0" y1="-20.32" x2="0" y2="-25.4" width="0.1524" layer="91"/>
-<label x="0" y="-25.4" size="1.778" layer="95"/>
+<pinref part="OK1" gate="G$1" pin="VCC"/>
+<wire x1="-2.54" y1="-15.24" x2="0" y2="-15.24" width="0.1524" layer="91"/>
+<label x="0" y="-15.24" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="12V" class="0">
@@ -5452,12 +5448,34 @@ Source: http://www.fairchildsemi.com/ds/H1/H11L2-M.pdf</description>
 <wire x1="-27.94" y1="-15.24" x2="-22.86" y2="-15.24" width="0.1524" layer="91"/>
 </segment>
 </net>
+<net name="GND_PLANE" class="0">
+<segment>
+<wire x1="-58.42" y1="-7.62" x2="-43.18" y2="-7.62" width="0.1524" layer="91"/>
+<label x="-43.18" y="-7.62" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="OK1" gate="G$1" pin="C"/>
+<wire x1="-22.86" y1="-20.32" x2="-25.4" y2="-20.32" width="0.1524" layer="91"/>
+<wire x1="-25.4" y1="-20.32" x2="-25.4" y2="-25.4" width="0.1524" layer="91"/>
+<label x="-25.4" y="-25.4" size="1.778" layer="95" rot="R180"/>
+</segment>
+<segment>
+<pinref part="OK1" gate="G$1" pin="GND"/>
+<wire x1="-2.54" y1="-20.32" x2="0" y2="-20.32" width="0.1524" layer="91"/>
+<wire x1="0" y1="-20.32" x2="0" y2="-25.4" width="0.1524" layer="91"/>
+<label x="0" y="-25.4" size="1.778" layer="95"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
 </schematic>
 </drawing>
 <compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
 <note version="8.2" severity="warning">
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)
