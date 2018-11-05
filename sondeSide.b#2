@@ -31,8 +31,8 @@
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
@@ -203,7 +203,7 @@
 <text x="67.818" y="2.032" size="0.762" layer="25">GND</text>
 <text x="96.52" y="10.414" size="1.27" layer="25">12V</text>
 <text x="96.52" y="16.764" size="1.27" layer="26" rot="MR180">12V</text>
-<text x="14.224" y="4.318" size="0.8128" layer="25">Don't forget to cut VIN-VUSB!!</text>
+<text x="13.462" y="4.318" size="0.8128" layer="25">Don't forget to cut VIN-VUSB!!</text>
 <wire x1="82.042" y1="20.066" x2="94.996" y2="20.066" width="0.127" layer="21"/>
 <wire x1="94.996" y1="20.066" x2="94.996" y2="9.398" width="0.127" layer="21"/>
 <wire x1="94.996" y1="9.398" x2="82.042" y2="9.398" width="0.127" layer="21"/>
