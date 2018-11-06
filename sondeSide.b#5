@@ -222,9 +222,9 @@
 <wire x1="81.026" y1="30.988" x2="81.026" y2="6.604" width="0.1524" layer="51"/>
 <wire x1="81.026" y1="6.604" x2="38.354" y2="6.604" width="0.1524" layer="51"/>
 <wire x1="38.354" y1="6.604" x2="38.354" y2="30.988" width="0.1524" layer="51"/>
-<text x="78.74" y="24.13" size="1.27" layer="25" rot="MR90">GND</text>
-<text x="76.2" y="25.908" size="1.27" layer="25" rot="MR90">5V</text>
-<text x="71.12" y="25.908" size="1.27" layer="25" rot="MR90">D1</text>
+<text x="78.74" y="24.13" size="1.27" layer="26" rot="MR90">GND</text>
+<text x="76.2" y="25.908" size="1.27" layer="26" rot="MR90">5V</text>
+<text x="71.12" y="25.908" size="1.27" layer="26" rot="MR90">D1</text>
 <text x="4.826" y="5.334" size="1.27" layer="21">Switch</text>
 <text x="85.852" y="15.24" size="1.27" layer="25">5V</text>
 <text x="85.852" y="10.414" size="1.27" layer="25">3.3V</text>
@@ -267,10 +267,14 @@ SWITCH</text>
 <text x="99.568" y="19.304" size="1.016" layer="26" rot="MR0">12V</text>
 <text x="2.032" y="6.858" size="1.27" layer="26" rot="MR270">ON -&gt;</text>
 <text x="90.932" y="17.78" size="1.27" layer="26" rot="MR0">!SHDN</text>
-<text x="68.58" y="25.908" size="1.27" layer="25" rot="MR90">D2</text>
-<text x="73.66" y="25.908" size="1.27" layer="25" rot="MR90">D0</text>
-<text x="63.754" y="25.908" size="1.27" layer="25" rot="MR90">VT</text>
-<text x="66.04" y="25.908" size="1.27" layer="25" rot="MR90">D3</text>
+<text x="68.58" y="25.908" size="1.27" layer="26" rot="MR90">D2</text>
+<text x="73.66" y="25.908" size="1.27" layer="26" rot="MR90">D0</text>
+<text x="63.754" y="25.908" size="1.27" layer="26" rot="MR90">VT</text>
+<text x="66.04" y="25.908" size="1.27" layer="26" rot="MR90">D3</text>
+<text x="54.356" y="3.81" size="1.27" layer="25" rot="R90">SDA</text>
+<text x="53.34" y="3.81" size="1.27" layer="26" rot="MR90">SDA</text>
+<text x="55.88" y="3.81" size="1.27" layer="26" rot="MR90">SCL</text>
+<text x="56.896" y="3.81" size="1.27" layer="25" rot="R90">SCL</text>
 </plain>
 <libraries>
 <library name="con-molex" urn="urn:adsk.eagle:library:165">

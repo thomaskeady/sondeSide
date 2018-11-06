@@ -185,7 +185,7 @@
 <text x="102.616" y="21.59" size="1.27" layer="26" rot="MR90">SONDE</text>
 <text x="89.281" y="0.889" size="1.27" layer="26" rot="MR0">RADIO</text>
 <text x="94.742" y="2.032" size="1.27" layer="26" rot="MR180">DEPTH</text>
-<text x="5.334" y="20.828" size="1.778" layer="26">V1 NOV 2018</text>
+<text x="5.334" y="20.828" size="1.778" layer="25">V1 NOV 2018</text>
 <text x="29.21" y="5.334" size="1.27" layer="26" rot="MR180">3.3V</text>
 <text x="85.852" y="11.684" size="1.27" layer="26" rot="MR180">3.3V</text>
 <text x="29.718" y="4.064" size="1.27" layer="25">3.3V</text>
