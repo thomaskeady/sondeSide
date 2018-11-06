@@ -164,10 +164,10 @@
 <text x="101.473" y="6.731" size="0.8128" layer="25" rot="R90">GND</text>
 <text x="97.028" y="29.718" size="0.8128" layer="25">GND</text>
 <text x="97.028" y="27.178" size="0.8128" layer="25">GND</text>
-<text x="98.044" y="21.844" size="0.8128" layer="25">RX</text>
-<text x="87.884" y="8.128" size="0.8128" layer="25" rot="R270">RX</text>
-<text x="85.344" y="8.128" size="0.8128" layer="25" rot="R270">TX</text>
-<text x="98.044" y="24.638" size="0.8128" layer="25">TX</text>
+<text x="97.536" y="21.844" size="0.8128" layer="25">RX2</text>
+<text x="87.884" y="8.636" size="0.8128" layer="25" rot="R270">RX3</text>
+<text x="85.344" y="8.636" size="0.8128" layer="25" rot="R270">TX3</text>
+<text x="97.536" y="24.384" size="0.8128" layer="25">TX2</text>
 <text x="97.536" y="19.304" size="0.8128" layer="25">12V</text>
 <text x="93.218" y="8.763" size="0.8128" layer="25" rot="R270">3.3V</text>
 <text x="90.17" y="8.89" size="0.8128" layer="25" rot="R270">3.3V</text>
@@ -176,8 +176,8 @@
 <text x="82.55" y="8.89" size="0.8128" layer="25" rot="R270">GND</text>
 <text x="83.439" y="9.017" size="0.8128" layer="26" rot="MR270">GND</text>
 <text x="100.838" y="6.35" size="1.016" layer="26" rot="MR90">GND</text>
-<text x="86.233" y="9.017" size="1.27" layer="26" rot="MR270">TX</text>
-<text x="88.773" y="9.017" size="1.27" layer="26" rot="MR270">RX</text>
+<text x="86.233" y="9.017" size="1.016" layer="26" rot="MR270">TX3</text>
+<text x="88.773" y="9.271" size="1.016" layer="26" rot="MR270">RX3</text>
 <text x="91.313" y="10.287" size="1.27" layer="26" rot="MR270">3.3V</text>
 <text x="93.472" y="6.858" size="1.27" layer="26" rot="MR90">3.3V</text>
 <text x="95.758" y="6.604" size="1.27" layer="26" rot="MR90">SDA</text>
@@ -204,27 +204,27 @@
 <text x="96.266" y="15.494" size="1.27" layer="25">12V</text>
 <text x="96.52" y="16.764" size="1.27" layer="26" rot="MR180">12V</text>
 <text x="13.462" y="4.318" size="0.8128" layer="25">Don't forget to cut VIN-VUSB!!</text>
-<wire x1="82.042" y1="20.066" x2="94.996" y2="20.066" width="0.127" layer="21"/>
-<wire x1="94.996" y1="20.066" x2="94.996" y2="9.398" width="0.127" layer="21"/>
-<wire x1="94.996" y1="9.398" x2="82.042" y2="9.398" width="0.127" layer="21"/>
-<wire x1="82.042" y1="9.398" x2="82.042" y2="20.066" width="0.127" layer="21"/>
-<wire x1="103.378" y1="18.034" x2="103.378" y2="8.636" width="0.127" layer="21"/>
-<wire x1="103.378" y1="8.636" x2="89.916" y2="8.636" width="0.127" layer="21"/>
-<wire x1="89.916" y1="8.636" x2="89.916" y2="18.034" width="0.127" layer="21"/>
-<wire x1="89.916" y1="18.034" x2="103.378" y2="18.034" width="0.127" layer="21"/>
+<wire x1="82.042" y1="20.066" x2="94.996" y2="20.066" width="0.127" layer="22"/>
+<wire x1="94.996" y1="20.066" x2="94.996" y2="9.398" width="0.127" layer="22"/>
+<wire x1="94.996" y1="9.398" x2="82.042" y2="9.398" width="0.127" layer="22"/>
+<wire x1="82.042" y1="9.398" x2="82.042" y2="20.066" width="0.127" layer="22"/>
+<wire x1="103.378" y1="18.034" x2="103.378" y2="8.636" width="0.127" layer="22"/>
+<wire x1="103.378" y1="8.636" x2="89.916" y2="8.636" width="0.127" layer="22"/>
+<wire x1="89.916" y1="8.636" x2="89.916" y2="18.034" width="0.127" layer="22"/>
+<wire x1="89.916" y1="18.034" x2="103.378" y2="18.034" width="0.127" layer="22"/>
 <hole x="3.937" y="11.557" drill="2.54"/>
 <hole x="25.146" y="22.1742" drill="4.318"/>
 <hole x="3.937" y="28.067" drill="2.54"/>
 <text x="9.652" y="6.604" size="1.27" layer="25">500c Powerboost</text>
-<wire x1="0.762" y1="8.382" x2="37.084" y2="8.382" width="0.1524" layer="21"/>
-<wire x1="37.084" y1="8.382" x2="37.084" y2="30.988" width="0.1524" layer="21"/>
-<wire x1="38.354" y1="30.988" x2="81.026" y2="30.988" width="0.1524" layer="51"/>
-<wire x1="81.026" y1="30.988" x2="81.026" y2="6.604" width="0.1524" layer="51"/>
-<wire x1="81.026" y1="6.604" x2="38.354" y2="6.604" width="0.1524" layer="51"/>
-<wire x1="38.354" y1="6.604" x2="38.354" y2="30.988" width="0.1524" layer="51"/>
-<text x="78.74" y="24.13" size="1.27" layer="25" rot="MR90">GND</text>
-<text x="76.2" y="25.908" size="1.27" layer="25" rot="MR90">5V</text>
-<text x="71.12" y="25.908" size="1.27" layer="25" rot="MR90">D1</text>
+<wire x1="0.762" y1="8.382" x2="37.084" y2="8.382" width="0.1524" layer="22"/>
+<wire x1="37.084" y1="8.382" x2="37.084" y2="30.988" width="0.1524" layer="22"/>
+<wire x1="38.354" y1="30.988" x2="81.026" y2="30.988" width="0.1524" layer="22"/>
+<wire x1="81.026" y1="30.988" x2="81.026" y2="6.604" width="0.1524" layer="22"/>
+<wire x1="81.026" y1="6.604" x2="38.354" y2="6.604" width="0.1524" layer="22"/>
+<wire x1="38.354" y1="6.604" x2="38.354" y2="30.988" width="0.1524" layer="22"/>
+<text x="78.74" y="24.13" size="1.27" layer="26" rot="MR90">GND</text>
+<text x="76.2" y="25.908" size="1.27" layer="26" rot="MR90">5V</text>
+<text x="71.12" y="25.908" size="1.27" layer="26" rot="MR90">D1</text>
 <text x="4.826" y="5.334" size="1.27" layer="21">Switch</text>
 <text x="85.852" y="15.24" size="1.27" layer="25">5V</text>
 <text x="85.852" y="10.414" size="1.27" layer="25">3.3V</text>
@@ -267,10 +267,20 @@ SWITCH</text>
 <text x="99.568" y="19.304" size="1.016" layer="26" rot="MR0">12V</text>
 <text x="2.032" y="6.858" size="1.27" layer="26" rot="MR270">ON -&gt;</text>
 <text x="90.932" y="17.78" size="1.27" layer="26" rot="MR0">!SHDN</text>
-<text x="68.58" y="25.908" size="1.27" layer="25" rot="MR90">D2</text>
-<text x="73.66" y="25.908" size="1.27" layer="25" rot="MR90">D0</text>
-<text x="63.754" y="25.908" size="1.27" layer="25" rot="MR90">VT</text>
-<text x="66.04" y="25.908" size="1.27" layer="25" rot="MR90">D3</text>
+<text x="68.58" y="25.908" size="1.27" layer="26" rot="MR90">D2</text>
+<text x="73.66" y="25.908" size="1.27" layer="26" rot="MR90">D0</text>
+<text x="63.754" y="25.908" size="1.27" layer="26" rot="MR90">VT</text>
+<text x="66.04" y="25.908" size="1.27" layer="26" rot="MR90">D3</text>
+<text x="54.356" y="3.81" size="1.27" layer="25" rot="R90">SDA</text>
+<text x="53.34" y="3.81" size="1.27" layer="26" rot="MR90">SDA</text>
+<text x="55.88" y="3.81" size="1.27" layer="26" rot="MR90">SCL</text>
+<text x="56.896" y="3.81" size="1.27" layer="25" rot="R90">SCL</text>
+<text x="40.386" y="7.366" size="1.27" layer="25" rot="R90">(Sonde)</text>
+<text x="39.624" y="7.366" size="1.27" layer="26" rot="MR90">(Sonde)</text>
+<text x="44.704" y="7.112" size="1.27" layer="26" rot="MR90">(Radio)</text>
+<text x="45.72" y="7.112" size="1.27" layer="25" rot="R90">(Radio)</text>
+<text x="55.626" y="7.62" size="1.27" layer="25" rot="R90">(Depth)</text>
+<text x="54.61" y="7.366" size="1.27" layer="26" rot="MR90">(Depth)</text>
 </plain>
 <libraries>
 <library name="con-molex" urn="urn:adsk.eagle:library:165">
